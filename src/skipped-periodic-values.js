@@ -3,8 +3,8 @@ import nearestPeriodicValue from 'nearest-periodic-value';
 function skippedPeriodicValues(start, distance, value, period) {
   var nearest = nearestPeriodicValue(start, value, period);
 
-  // If our nearest value is behind us, or we're on it,
-  // push it ahead
+  // If our nearest value is behind the start, or is the start,
+  // then push it to the next value
   if (nearest - start < 0 || nearest === start) {
     nearest = nearest + period;
   }

@@ -5,11 +5,12 @@
 [![Dependency Status](https://david-dm.org/jmeas/skipped-periodic-values.js.svg)](https://david-dm.org/jmeas/skipped-periodic-values.js) 
 [![devDependency Status](https://david-dm.org/jmeas/skipped-periodic-values.js/dev-status.svg)](https://david-dm.org/jmeas/skipped-periodic-values.js#info=devDependencies)
 
-Given a distance, determine how many periodic values were skipped.
+Given a distance that ignores a periodic value, determine how many periodic values were skipped.
 
 ### What might I use this library for?
 
-Calculating work days 
+This library was built to solve the following problem: given a day, and a number of workdays,
+determine the total number of days in constant time.
 
 ### Terminology
 
@@ -17,14 +18,8 @@ The members of a periodic function's output are the "values." A single member is
 
 The distance that the function repeats itself along is the "period."
 
-An interval is defined by a "start" and "end".
-
 ### API
 
 ##### `skippedPeriodicValues(start, distance, value, period)`
 
-Find the number of values contained with the "start" and "end." This method works with
-intervals with inclusive starts and exclusive ends. In math syntax, this would be written
-as `[start, end)`.
-
-The order that you specify the start and end does not matter.
+Find the number of values skipped across "distance."
