@@ -10,7 +10,7 @@ Given a distance that ignores a periodic value, determine how many periodic valu
 ### What might I use this library for?
 
 This library was built to solve the following problem: given a day, and a number of workdays,
-determine the total number of days in constant time.
+determine the total number of days.
 
 ### Terminology
 
