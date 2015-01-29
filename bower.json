@@ -1,18 +1,18 @@
 {
-  "name": "contained-periodic-values.js",
-  "version": "0.0.2",
-  "homepage": "https://github.com/jmeas/contained-periodic-values.js",
+  "name": "skipped-periodic-values.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jmeas/skipped-periodic-values.js",
   "authors": [
     "Jmeas <jellyes2@gmail.com>"
   ],
-  "description": "Find how many values of a discrete periodic function are contained in an interval.",
-  "main": "dist/contained-periodic-values.js",
+  "description": "Given a point and a distance, determine how many periodic values were skipped.",
+  "main": "dist/skipped-periodic-values.js",
   "keywords": [
     "mathematics",
     "math",
     "period",
     "periodic",
-    "contained",
+    "skipped",
     "solution",
     "function"
   ],
