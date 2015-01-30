@@ -3,6 +3,12 @@ import nearestPeriodicValue from 'nearest-periodic-value';
 function skippedPeriodicValues(start, distance, value, period) {
   var nearest = nearestPeriodicValue(start, value, period);
 
+  // Make the algorithm inclusive. If the distance is 0 and we're
+  // on the nearest value, then we don't count it.
+  if (nearest === start && distance === 0) {
+    return 0;
+  }
+
   // If our nearest value is behind the start, or is the start,
   // then push it to the next value
   if (nearest - start < 0) {
