@@ -5,7 +5,7 @@ function skippedPeriodicValues(start, distance, value, period) {
 
   // If our nearest value is behind the start, or is the start,
   // then push it to the next value
-  if (nearest - start < 0 || nearest === start) {
+  if (nearest - start < 0) {
     nearest = nearest + period;
   }
 

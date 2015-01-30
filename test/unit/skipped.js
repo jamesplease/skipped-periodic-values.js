@@ -15,8 +15,8 @@ describe('Skipped', function() {
 
   describe('period = 4; value = 4; start = 0', function() {
     beforeEach(function() {
-      this.period = 4;
-      this.val = 4;
+      this.period = 5;
+      this.val = 5;
       this.start = 0;
     });
     _.each(fixtures.two, function(solution, distance) {
