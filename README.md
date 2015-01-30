@@ -7,11 +7,6 @@
 
 Given a distance that ignores a periodic value, determine how many periodic values were skipped.
 
-### What might I use this library for?
-
-This library was built to solve the following problem: given a day, and a number of workdays,
-determine the total number of days.
-
 ### Terminology
 
 The members of a periodic function's output are the "values." A single member is a "value."
