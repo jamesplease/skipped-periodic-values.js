@@ -1,6 +1,6 @@
 {
   "name": "skipped-periodic-values",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Given a point and a distance, determine how many periodic values were skipped.",
   "main": "dist/skipped-periodic-values.js",
   "scripts": {
